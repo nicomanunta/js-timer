@@ -1,4 +1,4 @@
-# js-timer
+# js-timer ⏱️
 **js-timer** è un semplice timer web. Il progetto include tre bottoni: **Start** per avviare il timer, **Stop** per fermarlo e **Reset** per riportarlo a zero.
 
 ## Funzionalità
