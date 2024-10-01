@@ -37,3 +37,72 @@
 .sky{
     color: #5dade2;
 }
+
+p{
+    font-size: 40px;
+}
+
+.title{
+    font-size: 80px;
+    color: #2c3e50;
+    text-shadow: 3px 3px rgba(0, 0, 0, 0.145);
+}
+.timer-display{
+    font-size: 70px;
+    color: #f39c12;
+    text-shadow: 3px 3px rgba(0, 0, 0, 0.066);
+
+}
+
+.btn-timer{
+    font-size: 35px;
+    padding: 3px 20px;
+    border-radius: 12px;
+    color: #f0f0f0;
+    box-shadow: 3px 3px rgba(0, 0, 0, 0.116);
+}
+
+.btn-start{
+    background-color: #27ae60;
+    border: 3px solid #27ae60;
+}
+.btn-start:hover{
+    background-color: #f0f0f0;
+    color: #27ae60;
+}
+.btn-start:active{
+    background-color: #e5e5e5;
+    color: #27ae60;
+    box-shadow: 2px 2px rgba(0, 0, 0, 0.186);
+    scale:0.98;
+}
+
+.btn-stop{
+    background-color: #e74c3c;
+    border: 3px solid #e74c3c;
+}
+.btn-stop:hover{
+    background-color: #f0f0f0;
+    color: #e74c3c;
+}
+.btn-stop:active{
+    background-color: #e5e5e5;
+    color: #e74c3c;
+    box-shadow: 2px 2px rgba(0, 0, 0, 0.186);
+    scale:0.98;
+}
+
+.btn-reset{
+    background-color: #7f8c8d;
+    border: 3px solid #7f8c8d;
+}
+.btn-reset:hover{
+    background-color: #f0f0f0;
+    color: #7f8c8d;
+}
+.btn-reset:active{
+    background-color: #e5e5e5;
+    color: #7f8c8d;
+    box-shadow: 2px 2px rgba(0, 0, 0, 0.186);
+    scale:0.98;
+}

@@ -9,15 +9,15 @@
     <link rel="stylesheet" href="./css/style.css">
 </head>
 <body class="bg-grey">
-    <div class="container d-flex justify-content-center align-items-center vh-100">
+    <div class="container d-flex justify-content-center align-items-center text-center vh-100">
         <div class="row">
             <div class="col-12">
-                <h1>TIMER</h1>
-                <p id="timerNumber" class="timer-number"></p>
-                <div id="timerButton">
-                    <button id="startButton" class="btn-timer"></button>
-                    <button id="stopButton" class="btn-timer"></button>
-                    <button id="resetButton" class="btn-timer"></button>
+                <h1 class="title mb-0">TIMER</h1>
+                <p id="timerDisplay" class="timer-display">00:00:00</p>
+                <div class="mt-4">
+                    <button id="startButton" class="btn-timer btn-start">Start</button>
+                    <button id="stopButton" class="btn-timer btn-stop mx-1" disabled>Stop</button>
+                    <button id="resetButton" class="btn-timer btn-reset">Reset</button>
                 </div>
             </div>
         </div>
